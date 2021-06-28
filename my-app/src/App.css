@@ -98,3 +98,33 @@
   height: 30px;
   background: lightgray;
 }
+.list-item {
+  margin: 0 auto;
+  max-width: 50%;
+  list-style: none;
+  margin-bottom: 100px;
+}
+.item {
+  display: flex;
+  align-items: center;
+}
+.item-left {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.item-center {
+
+}
+.item-right {
+
+}
+.item-right-button {
+  font-size: 40px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+}
