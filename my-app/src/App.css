@@ -98,3 +98,25 @@
   height: 30px;
   background: lightgray;
 }
+.main-content {
+  display: flex;
+  justify-content: space-around;
+}
+.circle-wrap {
+  height: 500px;
+}
+.circle-btn {
+  background-color: lightgray;
+  padding: 10px;
+  font-size: 20px;
+}
+.circle-item {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  text-align: center;
+  line-height: 150px;
+  font-size: 30px;
+  border-radius: 50%;
+  margin: 10px;
+}

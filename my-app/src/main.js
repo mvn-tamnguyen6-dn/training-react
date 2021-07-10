@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import React from 'react'
+import Circle from './Clock';
 
 class Main extends React.Component {
   render() {
@@ -7,10 +8,9 @@ class Main extends React.Component {
       <main class="page-main">
         <div class="container">
           <div class="main-content text-center">
-            <a href="/">
-              <img src={logo} class="react-logo" alt="react-logo"/>
-            </a>
-            <h4 class="text-center">Hello React!</h4>
+            <Circle number={10}></Circle>
+            <Circle number={20}></Circle>
+            <Circle number={30}></Circle>
           </div>
         </div>
       </main>
