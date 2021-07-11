@@ -3,8 +3,8 @@ import React from 'react';
 class Footer extends React.Component {
   render() {
     return (
-      <footer class="page-footer flex-centered">
-        <h3 class="text-center">Footer</h3>
+      <footer className="page-footer flex-centered">
+        <h3 className="text-center">Footer</h3>
       </footer>
     )
   }
