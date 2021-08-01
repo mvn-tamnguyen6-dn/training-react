@@ -60,13 +60,23 @@
   text-align: center;
 }
 
-.page-header {
+.page-main {
+  min-height: calc(100vh - 173px);
+}
+
+.nav-pagination {
+  display: flex;
+  justify-content: center;
 }
 
 .page-footer {
   margin: 0px;
   padding: 30px;
   background-color: gainsboro;
+  /* position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; */
 }
 .flex-box {
   display: flex;
